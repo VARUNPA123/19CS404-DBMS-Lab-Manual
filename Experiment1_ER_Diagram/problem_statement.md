@@ -153,10 +153,4 @@ A popular restaurant wants to manage reservations, orders, and billing.
 - One bill is generated for each reservation
 ---
 
-## Instructions for Students
-
-1. Complete **all three scenarios** (A, B, C).  
-2. Identify entities, relationships, and attributes for each.  
-3. Draw ER diagrams using **draw.io / diagrams.net** or hand-drawn & scanned.  
-4. Fill in all tables and assumptions for each scenario.  
-5. Export the completed Markdown (with diagrams) as **a single PDF**
+) as **a single PDF**
