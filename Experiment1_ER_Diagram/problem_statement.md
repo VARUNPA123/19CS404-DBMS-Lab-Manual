@@ -151,6 +151,3 @@ A popular restaurant wants to manage reservations, orders, and billing.
 - Each reservation is assigned to only one table.
 - A reservation can include multiple food orders.
 - One bill is generated for each reservation
----
-
-) as **a single PDF**
