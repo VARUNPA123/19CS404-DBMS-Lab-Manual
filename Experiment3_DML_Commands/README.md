@@ -47,55 +47,73 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Paste Question 1 here
+<img width="1047" height="531" alt="image" src="https://github.com/user-attachments/assets/b647ad8e-8537-4895-a902-57dbfaea8715" />
+
 
 ```sql
--- Paste your SQL code below for Question 1
+UPDATE PRODUCTS
+SET sell_price = sell_price + sell_price*0.1
+WHERE supplier_id = 6;
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1302" height="252" alt="image" src="https://github.com/user-attachments/assets/82cd8fb4-f6b0-4343-8656-696770e3e4e2" />
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+<img width="1162" height="655" alt="image" src="https://github.com/user-attachments/assets/e76ad85e-83ab-4efd-ba2c-d572569ed52b" />
+
 
 ```sql
--- Paste your SQL code below for Question 2
+select id,value1,
+case 
+    when value1 < 13 then 'Child'
+    when value1 >= 13 and value1 <= 19 then 'Teen'
+    else 'Adult'
+end as age_group    
+from Calculations;
 ```
 
 **Output:**
 
-![Output2](output.png)
+<img width="1072" height="377" alt="image" src="https://github.com/user-attachments/assets/b6c3b202-57ba-4211-aa72-249cedd88d27" />
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+<img width="1152" height="692" alt="image" src="https://github.com/user-attachments/assets/a9aacbe6-4767-4e58-9c8e-8672a95ff102" />
+
 
 ```sql
--- Paste your SQL code below for Question 3
+select * from emp where hiredate between '2022-01-01' and '2022-12-31';
 ```
 
 **Output:**
 
-![Output3](output.png)
+<img width="922" height="157" alt="image" src="https://github.com/user-attachments/assets/9275b546-b443-4024-89ef-eda95f621f69" />
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+<img width="987" height="577" alt="image" src="https://github.com/user-attachments/assets/60fee09b-c670-4c82-9614-bf51785c9266" />
+
 
 ```sql
--- Paste your SQL code below for Question 4
+select id, round(decimal,3) as rounded_value
+from Calculations;
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="952" height="267" alt="image" src="https://github.com/user-attachments/assets/4d93f251-0834-4b0e-a6b3-8f4911052402" />
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+<img width="1182" height="480" alt="image" src="https://github.com/user-attachments/assets/09175414-5d47-4cd5-9ea5-699023523878" />
+
 
 ```sql
 -- Paste your SQL code below for Question 5
