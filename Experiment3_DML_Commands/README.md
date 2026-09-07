@@ -116,72 +116,79 @@ from Calculations;
 
 
 ```sql
--- Paste your SQL code below for Question 5
+select SUBSTR(Address, 1, INSTR(Address, '(') - 1) as PlaceName from EmployeeInfo;
 ```
 
 **Output:**
 
-![Output5](output.png)
+<img width="1116" height="322" alt="image" src="https://github.com/user-attachments/assets/17d59392-26aa-410a-9e27-fe994d981693" />
+
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="1167" height="665" alt="image" src="https://github.com/user-attachments/assets/02d86979-202a-4f42-919e-b16b76a892fc" />
+
 
 ```sql
--- Paste your SQL code below for Question 6
+select customer_id, cust_name, city, grade, salesman_id
+from customer where grade is null;
 ```
 
 **Output:**
 
-![Output6](output.png)
+<img width="1225" height="292" alt="image" src="https://github.com/user-attachments/assets/629a9042-507b-4d4f-b7a9-3bb0ce00c323" />
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="1282" height="476" alt="image" src="https://github.com/user-attachments/assets/8a614df9-7600-42e6-92be-2c789e6fdeb7" />
+
 
 ```sql
--- Paste your SQL code below for Question 7
+delete from customer where GRADE<>3;
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="1162" height="512" alt="image" src="https://github.com/user-attachments/assets/8c4a7ecd-70f0-4705-b857-d7a14a22b2d6" />
 
 **Question 8**
 ---
--- Paste Question 8 here
+<img width="1280" height="340" alt="image" src="https://github.com/user-attachments/assets/ff9a5141-0999-4974-a892-9a41cc75da11" />
 
 ```sql
--- Paste your SQL code below for Question 8
+delete from Customer where (GRADE==3 or AGENT_CODE=='A008') and OUTSTANDING_AMT<5000;
 ```
 
 **Output:**
 
-![Output8](output.png)
+<img width="1357" height="145" alt="image" src="https://github.com/user-attachments/assets/8c976eea-ce30-413f-bd2f-397b07c5c783" />
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="1175" height="531" alt="image" src="https://github.com/user-attachments/assets/ccfe9411-644d-45a8-b296-a5edc97eaf8b" />
 
 ```sql
--- Paste your SQL code below for Question 9
+update products 
+set reorder_lvl=40 where category='Grocery';
 ```
 
 **Output:**
 
-![Output9](output.png)
+<img width="1322" height="182" alt="image" src="https://github.com/user-attachments/assets/72f83d67-1550-4846-88f3-26ff0a1fe30a" />
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="1157" height="672" alt="image" src="https://github.com/user-attachments/assets/8b23546c-0f94-4d33-b48b-fa7c53b7c7ce" />
 
 ```sql
--- Paste your SQL code below for Question 10
+update products 
+set reorder_lvl=reorder_lvl-0.3*reorder_lvl where product_name like '%cream%' and quantity>reorder_lvl;
 ```
 
 **Output:**
 
-![Output10](output.png)
+<img width="1327" height="255" alt="image" src="https://github.com/user-attachments/assets/bbab81fe-0b98-40c6-84f4-9dfb029c7d4e" />
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
